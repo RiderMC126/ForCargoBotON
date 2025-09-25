@@ -32,10 +32,22 @@ ForCargoBotON/
 **Требования**
 <ul>
   <li>Python 3.7+</li>
-  <li>Установленные зависимости 
-    ```bash
-    requirements.txt
-    ```
-  </li>
-  <li>Python 3.7+</li>
+  <li>Установленные зависимости <code>requirements.txt</code></li>
+  <li>Токен Telegram-бота (получается у <a href="https://t.me/BotFather">BotFather</a>)</li>
 </ul>
+
+**Пошаговая инструкция установки:**
+
+1. Клонировать репозиторий:  
+   ```bash
+   git clone https://github.com/RiderMC126/ForCargoBotON.git
+   cd ForCargoBotON
+   ```
+2. Создать и активировать виртуальное окружение:
+   ```bash
+    python -m venv venv
+    source venv/bin/activate   # для Linux / macOS
+    venv\Scripts\activate      # для Windows
+  ```
+
+
