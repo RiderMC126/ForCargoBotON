@@ -46,8 +46,22 @@ ForCargoBotON/
 2. Создать и активировать виртуальное окружение:
    ```bash
     python -m venv venv
-    source venv/bin/activate   # для Linux / macOS
-    venv\Scripts\activate      # для Windows
-  ```
+    venv\Scripts\activate     
+    ```
+3. Установить зависимости:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Указать Ваши данные в config.py:
+   ```bash
+   TOKEN = "ваш_telegram_token"
+   ADMINS = [123456789]  # ID администраторов
+   ```
+5. Запустить бота:
+   ```bash
+   python main.py
+   ```
+
+   
 
 
