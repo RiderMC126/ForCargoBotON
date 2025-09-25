@@ -32,6 +32,10 @@ ForCargoBotON/
 **Требования**
 <ul>
   <li>Python 3.7+</li>
-  <li>Установленные зависимости ```bashrequirements.txt```</li>
+  <li>Установленные зависимости 
+    ```bash
+    requirements.txt
+    ```
+  </li>
   <li>Python 3.7+</li>
 </ul>
